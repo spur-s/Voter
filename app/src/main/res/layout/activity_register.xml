@@ -58,7 +58,7 @@
         android:background="@drawable/rounded"
         android:ems="7"
         android:inputType="textPersonName"
-        android:textSize="25dp"
+        android:textSize="20dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintHorizontal_bias="0.817"
         app:layout_constraintStart_toEndOf="@+id/textView6"
@@ -78,13 +78,13 @@
         android:id="@+id/txtaddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/rounded"
         android:ems="7"
         android:inputType="textPersonName"
         android:textSize="20dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintHorizontal_bias="0.788"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/txtname" />
 
@@ -95,6 +95,7 @@
         android:layout_marginTop="20dp"
         android:text="Phone No."
         android:textSize="20dp"
+
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -102,13 +103,13 @@
         android:id="@+id/txtphone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/rounded"
         android:ems="7"
         android:inputType="textPersonName"
         android:textSize="20dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintHorizontal_bias="0.754"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/txtaddress" />
 
@@ -128,13 +129,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/rounded"
         android:ems="7"
         android:inputType="textPassword"
         android:textSize="20dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.637"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/txtphone" />
 
@@ -168,9 +169,9 @@
         android:id="@+id/txtage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:background="@drawable/rounded"
         android:ems="7"
         android:inputType="textPersonName"
