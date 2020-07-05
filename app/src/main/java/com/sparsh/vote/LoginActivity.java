@@ -38,6 +38,13 @@ public class LoginActivity extends AppCompatActivity {
         textView=findViewById(R.id.regbtn);
         fAuth=FirebaseAuth.getInstance();
 
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
+            }
+        });
+
         logbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
