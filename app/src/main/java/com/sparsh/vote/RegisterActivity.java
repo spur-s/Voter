@@ -26,7 +26,7 @@ public class RegisterActivity extends AppCompatActivity {
     EditText eFullName, eAge, ePassword, eAddress, ePhone;
     Button Savebtn;
     FirebaseAuth fAuth;
-    ProgressBar progressBar;
+    //ProgressBar progressBar;
     FirebaseFirestore fStore;
 
     DatabaseReference databaseReference;
@@ -112,7 +112,7 @@ public class RegisterActivity extends AppCompatActivity {
                             startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                         }else {
                             Toast.makeText(RegisterActivity.this, "Error!" +task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                            progressBar.setVisibility(View.GONE);
+                           // progressBar.setVisibility(View.GONE);
                         }
                     }
                 });
