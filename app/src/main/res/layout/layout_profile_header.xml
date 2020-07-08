@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/coverpicimageview"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/gradient_background_blue_grey"/>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="116dp">
+
+            <ImageView
+                android:id="@+id/profilepicimageview"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/profile_pic_edit_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:textColor="@android:color/black"
+                android:background="@color/colorPrimary"
+                android:padding="2dp"
+                android:text="@string/edit"
+                android:textAllCaps="true"
+                android:visibility="gone" />
+
+        </FrameLayout>
+    </FrameLayout>
+
+
+
+    <TextView
+        android:id="@+id/tvfullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="12dp"
+        android:text="Full  name"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="23sp"
+        android:gravity="center_horizontal"/>
+
+<include layout="@layout/view_seperator" />
+</LinearLayout>
+
+
+

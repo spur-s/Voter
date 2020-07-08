@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_background_blue_grey"
     tools:context=".navfragment.AccountFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="account">
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/layout_profile_header"
+            layout="@layout/layout_profile_header" />
 
 
-    </TextView>
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/btnsuscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/suscribe" />
+
+        <TextView
+            android:id="@+id/Poll"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="@string/poll" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_viewpoll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</ScrollView>

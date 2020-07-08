@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Vote</string>
+
+    <!--PROFILE FRAGMENT -->
+    <string name="edit">Edit</string>
+    <string name="poll">Your Poll</string>
+    <string name="suscribe">Suscribe</string>
+    <string name="user_profile">Profile</string>
 </resources>
